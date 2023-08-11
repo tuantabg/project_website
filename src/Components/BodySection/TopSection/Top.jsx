@@ -9,7 +9,7 @@ import { BsArrowRightShort } from 'react-icons/bs';
 
 // Imported Image =======>
 import AdminAvata from '../../../Assets/tuanta_avata.jpg';
-import Image_08 from '../../../Assets/image_08.jpg';
+import Image_01 from '../../../Assets/image_02.png';
 import Video from '../../../Assets/video.mp4';
 
 const Top = () => {
@@ -77,8 +77,22 @@ const Top = () => {
             </div>
 
             <div className="imgDiv">
-              <img src={Image_08} alt="Image name" />
+              <img src={Image_01} alt="Image name" />
             </div>
+
+            {/* We shall usse this card Later ... */}
+            {/* <div className="sideBarCard">
+              <BsQuestionCircle className="icon"/>
+              <div className="cardContent">
+                <div className="circle1"></div>
+                <div className="circle2"></div>
+
+                <h3>Help Center</h3>
+                <p>Having trouble in Planti, please contract us from for more questions.</p>
+                <button className="btn">Go to help center</button>
+              </div>
+            </div> */}
+
           </div>
         </div>
       </div>
